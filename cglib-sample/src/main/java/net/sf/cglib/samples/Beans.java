@@ -72,7 +72,9 @@ public class Beans implements MethodInterceptor {
     }
     
     public static void main( String args[] ){
-        
+
+        //https://www.cnblogs.com/xdouby/p/6793184.html
+
         Bean  bean =  (Bean)newInstance( Bean.class );
         
         bean.addPropertyChangeListener(
